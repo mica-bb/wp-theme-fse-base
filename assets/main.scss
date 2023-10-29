@@ -11,7 +11,7 @@ License URI: The URL of the theme license.
 Text Domain: bb-wp-base
 */
 // 
-// VOS CSS dès la ligne 43
+// VOS CSS dès la ligne 61 et 75 pour desktop et dans la @media query pour le mobile 
 //
 // reset les valeurs par défaut des navigateurs 
 @charset "UTF-8";
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5 {
     line-height: var(--lhtitle);
     
 }
-
+// vos (S)CSS ici
 .entry-content{
     ul>li{
         list-style-type: circle;
@@ -71,7 +71,7 @@ footer a{
     text-decoration: none;
 }
 
-
+/* Pour les mobiles */
 @media screen and (max-width:$mobileBreakpoint) {
     .wp-block-navigation__responsive-container-close,
     .wp-block-navigation__responsive-container-open {
