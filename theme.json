@@ -4,7 +4,7 @@
 		"appearanceTools": true,
 		"color": {
 			"custom": true,
-			"customDuotone": false,
+			"customDuotone": true,
 			"defaultDuotone": false,
 			"defaultPalette": true,
 			"duotone": [],
