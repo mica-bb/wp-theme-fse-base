@@ -132,27 +132,27 @@
 			],
 			"fontSizes": [
 				{
-					"name": "Tiny",
+					"name": "XXS",
 					"size": "calc( var(--fz) * .5)",
 					"slug": "tiny"
 				},
 				{
-					"name": "Small",
+					"name": "XS",
 					"size": "calc( var(--fz) * .75)",
 					"slug": "small"
 				},
 				{
-					"name": "Medium",
+					"name": "M",
 					"size": "calc(var(--fz) * 1.25)",
 					"slug": "medium"
 				},
 				{
-					"name": "Large",
+					"name": "L",
 					"size": "calc( var(--fz) * 1.5)",
 					"slug": "large"
 				},
 				{
-					"name": "Very Large",
+					"name": "XL",
 					"size": "calc( var(--fz) * 2)",
 					"slug": "x-large"
 				},
