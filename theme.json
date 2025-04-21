@@ -52,40 +52,40 @@
 			"spacingSizes": [
 				{
 					"name": "1/4",
-					"size": "calc(.25 * var(--gap))",
+					"size": "0.25rem",
 					"slug": "quarter"
 				},
 				{
 					"name": "1/2",
-					"size": "calc(.5 * var(--gap))",
+					"size": "0.5rem",
 					"slug": "half"
 				},
 				{
 					"name": "1",
-					"size": "var(--gap)",
+					"size": "1rem",
 					"slug": "gap"
 				},
 				{
 					"name": "2",
-					"size": "calc( 2 * var(--gap))",
+					"size": "2rem",
 					"slug": "gap2"
 				},
 				{
 					"name": "3",
-					"size": "calc( 3 * var(--gap))",
+					"size": "3rem",
 					"slug": "gap3"
 				},
 				{
 					"name": "4",
-					"size": "calc( 4 * var(--gap))",
+					"size": "4rem",
 					"slug": "gap4"
 				}
 			],
 			"units": [
 				"%",
 				"px",
-				"em",
 				"rem",
+				"em",
 				"vh",
 				"vw"
 			]
