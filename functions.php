@@ -41,3 +41,15 @@ function bb_base_mica_specific_theme_admin_styles() {
 }
 	
 add_action('after_setup_theme', 'bb_base_mica_specific_theme_admin_styles');
+
+
+/*
+ * Print array for logged user
+ */
+function pa($array){
+    if(is_user_logged_in()){
+    	echo '<pre style="display:block;background:#fff;display: block;font-family: monospace;white-space: pre;margin: 1em 0;color:black;font-size:12px;font-weight:normal;">';
+    	print_r($array);
+    	echo '</pre>';
+    }
+}
